@@ -112,6 +112,10 @@ input {
     #container-form form  {
         display: block;
         width: 80%;
+        padding: 0;
+    }
+    #container-form{
+        padding: 0;
     }
 }
 
