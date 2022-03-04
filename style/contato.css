@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Ubuntu';
+    text-decoration: none;
+}
+.header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    flex-wrap: wrap;
+}
+.botoes-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.link-nav{
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    margin: 30px !important;
+}
+
+@media (max-width:1000px){
+    .header{
+        height: 80px;
+    }
+    header img{
+        width: 150px;
+    }
+    .link-nav{
+        margin: 10px !important;
+    }
+    .banner-ilustra{
+        display: none;
+    }
+
+@media (max-width:452px){
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+}
+#container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin: 40px auto;
+    padding-bottom: 80px;
+}
+#container-form form  {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 10px;
+    padding-top: 100px;
+    max-width: 500px;
+}
+#container-form form * {
+    margin: 5px 0;
+      }
+  input,
+  textarea {
+    width: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Nunito;
+    padding-left: 10px;
+  }
+  textarea{
+      height: 250px;
+      padding-bottom: 100px;
+      padding-top: 10px;
+  }
+  h1{
+      color: #FF4081;
+  }
+  button {
+    background: #ff4081;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    text-shadow:none;
+    border-style: none;
+}
+input {
+    height: 30px;
+}
+.banner-contato{
+    max-width: 100%;
+}
+
+@media (max-width:600px){
+    .banner-contato{
+        display: none;
+    }
+    #container-form form  {
+        display: block;
+        width: 80%;
+    }
+}
+
+
+footer{
+    background-color: #009688;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.botao-footer{
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #fff;;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-shadow:none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFF;
+    text-align: center  ;
+}
+.botoes-nav-footer{
+    display: flex;
+    color: #FFF;
+    margin: 10px 0px;
+}
+@media (max-width:1000px){
+    footer img{
+        width: 150px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .botoes-footer{
+        width: 100px;
+    }
+}
