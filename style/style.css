@@ -260,15 +260,33 @@ footer{
     color: #FFF;
     margin: 10px 0px;
 }
-@media (max-width:1000px){
+@media (max-width:650px){
     footer img{
         width: 150px;
     }
     footer{
         display: flex;
-        flex-direction: column;
     }
     .botoes-footer{
         width: 100px;
     }
+
+}
+
+    @media (max-width:400px){
+        footer img{
+            width: 150px;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+        }
+        .botoes-footer{
+            width: 100px;
+            margin: 10px;
+        }
+        .botao-footer{
+            padding: 0px;
+        }
+
 }
