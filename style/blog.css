@@ -117,6 +117,9 @@
     margin: 20px;
     width: 350px;
 }
+a {
+    color: inherit;
+}
 
 .retangulo{
     width: 350px;
