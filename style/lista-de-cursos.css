@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Ubuntu';
+    text-decoration: none;
+}
+
+.header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    flex-wrap: wrap;
+}
+.botoes-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.link-nav{
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    margin: 30px !important;
+}
+
+@media (max-width:1000px){
+    header{
+        height: 80px;
+    }
+    header img{
+        width: 150px;
+    }
+    .link-nav{
+        margin: 10px !important;
+    }
+    .banner-ilustra{
+        display: none;
+    }
+}
+
+@media (max-width:452px){
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+h1 {
+    color: #FF4081;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h3 {
+    color: #555555;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.pagina-cursos {
+    margin: 7%;
+}
+
+.coluna{
+    margin: 5% 1%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 3%;
+    margin-top: 6%;
+}
+
+.card h2{
+    font-size: 20px;
+    padding: 10px;
+    color: #FF4081;
+}
+.texto-card{
+    margin: 3%;
+    max-width: 750px;
+    width: auto;
+    height: auto;
+}
+
+.p-card{
+    padding-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    background-color: #c4c4c4;
+    height: 3px;
+    width: 100%;
+    color: #C4C4C4;
+}
+
+.card img{
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: 2%;
+    max-width: 90%;
+    object-fit: scale-down;
+}
+
+@media (max-width:650px){
+    .card img{
+        display: none;
+    }
+    .card{
+        padding: 0;
+    }
+    .card h2{
+        padding: 0;
+    }
+}
+
+
+.button{
+    background-color: #2E948A;
+    color: #ffffff;
+    font-weight: 400;
+    display: inline;
+    border: 1px solid#2E948A;
+    border-radius: 40px 40px;
+    padding: 5px 10%;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+
+footer{
+    background-color: #009688;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.botao-footer{
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #fff;;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-shadow:none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFF;
+    text-align: center  ;
+}
+.botoes-nav-footer{
+    display: flex;
+    color: #FFF;
+    margin: 10px 0px;
+}
+@media (max-width:650px){
+    footer img{
+        width: 150px;
+    }
+    footer{
+        display: flex;
+    }
+    .botoes-footer{
+        width: 100px;
+    }
+}
+
+    @media (max-width:400px){
+        footer img{
+            width: 150px;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+        }
+        .botoes-footer{
+            width: 100px;
+            margin: 10px;
+        }
+        .botao-footer{
+            padding: 0px;
+        }
+
+}
