@@ -4,13 +4,13 @@
     margin: 0;
     font-family: 'Ubuntu';
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .header {
     background-color: #2E948A;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     align-content: center;
     text-align: center;
     padding: 20px 30px 20px 30px;
@@ -164,6 +164,7 @@
     flex-direction: row;
     margin: 10px auto;
     max-width: 1500px;
+    justify-content: space-around;
 }
 
 
@@ -225,14 +226,14 @@
     display: block;
     margin: 30px auto;
     text-decoration: none;
-    color: #FF4081;;
+    color: #FF4081;
     border-radius: 20px;
-    padding: 10px 30px;
+    padding: 13px 5px;
     text-shadow:none;
     border-width: 1px;
     border-style: solid;
     border-color: #FF4081;
-    width: 140px;
+    width: 145px;
 }
 footer{
     background-color: #009688;
